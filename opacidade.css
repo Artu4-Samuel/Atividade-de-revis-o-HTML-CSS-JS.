@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    -ms-flex-align: center;
+}
+
+.d1, .d2, .d3, .d4 {
+    width: 150px;
+    height: 90px;
+    text-align: center ;
+    padding-block-start: 60px;
+    color: black;
+    
+}
+
+.d1 {
+    background-color: hsl(120, 100%, 20%);
+}
+
+.d2 {
+    background-color: hsl(120, 100%, 20%,0.6);
+}
+
+.d3 {
+    background-color: hsl(120, 100%, 20%,0.3);
+}
+
+.d4 {
+    background-color: hsl(120, 100%, 20%,0.1);
+}
