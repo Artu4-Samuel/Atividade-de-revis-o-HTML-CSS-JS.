@@ -1,0 +1,44 @@
+.esqcima, .esqbaixo, .dircima, .dirbaixo {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.principal {
+    padding: auto;
+    height: 600px;
+    width: 1350px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.esqbaixo {
+    background-color: darkgreen;
+}
+
+.esqcima {
+    background-color: red;
+}
+
+.dircima {
+    background-color: yellow;
+}
+
+.dirbaixo {
+    background-color: blue;
+}
